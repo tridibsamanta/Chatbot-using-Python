@@ -19,3 +19,6 @@ tensorflow, keras, nltk, pickle. If not, then install the modules using the comm
 - [x] Write your text in the section on the right to the send button and click on "Send". Enjoy the responses !  
 
 
+!!! ERROR GUIDE !!!
+
+While executing the file "train_chatbot.py" if you get some error like - "ImportError: cannot import name 'tf_utils'", uninstall keras using the command - {pip uninstall keras}, then reinstall keras using the command - {pip install keras==2.2.0}. Try executing the file, i hope it works properly ! 
